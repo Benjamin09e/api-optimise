@@ -1,0 +1,22 @@
+{
+  "name": "api-optimise",
+  "version": "1.0.0",
+  "description": "API Node.js optimisée avec Redis, MongoDB et compression gzip",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Benjamin",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2",
+    "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
